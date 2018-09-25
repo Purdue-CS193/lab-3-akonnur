@@ -12,21 +12,21 @@ public class StringUtils {
             Ex: firstName = "Sean", lastName = "Flannery"
                     --> res = "SFlannery"
          */
-        String res = firstName.substring(0,1) + lastName;
+        String resu = firstName.substring(0,1) + lastName;
         /* Shorten the string to 8 characters
             Ex: res = "SFlannery"
                     --> res = "SFlanner"
          */
-        if(res.length()>8) {
-            res = res.substring(0, 8);
+        if(resu.length()>8) {
+            resu = resu.substring(0, 8);
         }
         /* Convert the name to lower-case
             Ex: res = "SFlanner"
                     --> res = "sflanner"
          */
-        res = res.toLowerCase();
+        resu = resu.toLowerCase();
         /* return the result of our calculation */
-        return res;
+        return resu;
     }
 
     /**
